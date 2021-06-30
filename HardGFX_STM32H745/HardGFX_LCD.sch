@@ -1,0 +1,725 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title "LCD"
+Date "2021-06-19"
+Rev "Rev. 1"
+Comp "HardGFX"
+Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
+Comment2 "Maestría en Sistemas Embebidos"
+Comment3 "UBA - Facultad de Ingeniería"
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR036
+U 1 1 60DF7FCC
+P 3700 3300
+F 0 "#PWR036" H 3700 3150 50  0001 C CNN
+F 1 "+3V3" H 3715 3473 50  0000 C CNN
+F 2 "" H 3700 3300 50  0001 C CNN
+F 3 "" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3700 3550 3700
+Wire Wire Line
+	3700 3750 3700 3700
+$Comp
+L power:GNDD #PWR037
+U 1 1 60DF57CC
+P 3700 3750
+F 0 "#PWR037" H 3700 3500 50  0001 C CNN
+F 1 "GNDD" H 3704 3595 50  0000 C CNN
+F 2 "" H 3700 3750 50  0001 C CNN
+F 3 "" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3400 3700 3400
+$Comp
+L Device:C C40
+U 1 1 60DE6828
+P 3550 3550
+F 0 "C40" H 3200 3600 50  0000 L CNN
+F 1 "100nF" H 3200 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 3400 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3450 4850 3450
+Wire Wire Line
+	4850 3550 5500 3550
+Wire Wire Line
+	5500 3650 4850 3650
+Wire Wire Line
+	4850 3750 5500 3750
+Wire Wire Line
+	5500 3850 4850 3850
+Wire Wire Line
+	4850 3950 5500 3950
+Wire Wire Line
+	5500 4050 4850 4050
+Wire Wire Line
+	4850 4150 5500 4150
+Text HLabel 4850 3450 0    50   Input ~ 0
+LCD_R0
+Text HLabel 4850 3550 0    50   Input ~ 0
+LCD_R1
+Text HLabel 4850 3650 0    50   Input ~ 0
+LCD_R2
+Text HLabel 4850 3750 0    50   Input ~ 0
+LCD_R3
+Text HLabel 4850 3850 0    50   Input ~ 0
+LCD_R4
+Text HLabel 4850 3950 0    50   Input ~ 0
+LCD_R5
+Text HLabel 4850 4050 0    50   Input ~ 0
+LCD_R6
+Text HLabel 4850 4150 0    50   Input ~ 0
+LCD_R7
+Wire Wire Line
+	5500 4250 4850 4250
+Wire Wire Line
+	4850 4350 5500 4350
+Wire Wire Line
+	5500 4450 4850 4450
+Wire Wire Line
+	4850 4550 5500 4550
+Wire Wire Line
+	5500 4650 4850 4650
+Wire Wire Line
+	4850 4750 5500 4750
+Wire Wire Line
+	5500 4850 4850 4850
+Wire Wire Line
+	4850 4950 5500 4950
+Wire Wire Line
+	4850 5750 5500 5750
+Wire Wire Line
+	4850 5650 5500 5650
+Wire Wire Line
+	5500 5550 4850 5550
+Wire Wire Line
+	4850 5450 5500 5450
+Wire Wire Line
+	5500 5350 4850 5350
+Wire Wire Line
+	4850 5250 5500 5250
+Wire Wire Line
+	5500 5150 4850 5150
+Wire Wire Line
+	4850 5050 5500 5050
+Wire Wire Line
+	4850 6350 5500 6350
+Wire Wire Line
+	5500 6250 4850 6250
+Wire Wire Line
+	4850 6150 5500 6150
+Connection ~ 5000 6050
+Wire Wire Line
+	4850 6050 5000 6050
+Wire Wire Line
+	4850 5950 5500 5950
+Wire Wire Line
+	5000 6050 5500 6050
+Wire Wire Line
+	5000 6450 5000 6050
+Connection ~ 5150 6850
+Wire Wire Line
+	5000 6850 5150 6850
+Wire Wire Line
+	5000 6750 5000 6850
+Connection ~ 5300 6550
+Wire Wire Line
+	5300 6850 5300 6550
+Wire Wire Line
+	5150 6850 5300 6850
+Text HLabel 4850 4250 0    50   Input ~ 0
+LCD_G0
+Text HLabel 4850 4350 0    50   Input ~ 0
+LCD_G1
+Text HLabel 4850 4450 0    50   Input ~ 0
+LCD_G2
+Text HLabel 4850 4550 0    50   Input ~ 0
+LCD_G3
+Text HLabel 4850 4650 0    50   Input ~ 0
+LCD_G4
+Text HLabel 4850 4750 0    50   Input ~ 0
+LCD_G5
+Text HLabel 4850 4850 0    50   Input ~ 0
+LCD_G6
+Text HLabel 4850 4950 0    50   Input ~ 0
+LCD_G7
+Text HLabel 4850 5050 0    50   Input ~ 0
+LCD_B0
+Text HLabel 4850 5150 0    50   Input ~ 0
+LCD_B1
+Text HLabel 4850 5250 0    50   Input ~ 0
+LCD_B2
+Text HLabel 4850 5350 0    50   Input ~ 0
+LCD_B3
+Text HLabel 4850 5450 0    50   Input ~ 0
+LCD_B4
+Text HLabel 4850 5550 0    50   Input ~ 0
+LCD_B5
+Text HLabel 4850 5650 0    50   Input ~ 0
+LCD_B6
+Text HLabel 4850 5750 0    50   Input ~ 0
+LCD_B7
+Text HLabel 4850 5950 0    50   Input ~ 0
+LCD_CLK
+Text HLabel 4850 6150 0    50   Input ~ 0
+LCD_HSYNC
+Text HLabel 4850 6250 0    50   Input ~ 0
+LCD_VSYNC
+Text HLabel 4850 6350 0    50   Input ~ 0
+LCD_DE
+Text HLabel 4850 6050 0    50   Input ~ 0
+LCD_DISP
+$Comp
+L Device:R R4
+U 1 1 60D78415
+P 5000 6600
+F 0 "R4" H 5070 6646 50  0000 L CNN
+F 1 "4.7K" H 5070 6555 50  0000 L CNN
+F 2 "" V 4930 6600 50  0001 C CNN
+F 3 "~" H 5000 6600 50  0001 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 5850
+Wire Wire Line
+	5300 3250 5300 5850
+Wire Wire Line
+	5500 3250 5300 3250
+Wire Wire Line
+	5300 5850 5300 6550
+Wire Wire Line
+	5500 5850 5300 5850
+Wire Wire Line
+	5500 6550 5300 6550
+$Comp
+L power:GNDD #PWR038
+U 1 1 60D73142
+P 5150 6850
+F 0 "#PWR038" H 5150 6600 50  0001 C CNN
+F 1 "GNDD" H 5154 6695 50  0000 C CNN
+F 2 "" H 5150 6850 50  0001 C CNN
+F 3 "" H 5150 6850 50  0001 C CNN
+	1    5150 6850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 6450
+NoConn ~ 5500 6650
+NoConn ~ 5500 6750
+NoConn ~ 5500 6850
+NoConn ~ 5500 6950
+$Comp
+L ER-CON40HT-1:ER-CON40HT-1 J5
+U 1 1 60D5B202
+P 5500 3100
+F 0 "J5" H 6330 1246 50  0000 L CNN
+F 1 "ER-CON40HT-1" H 6330 1155 50  0000 L CNN
+F 2 "ER-CONNECTOR:ER-CON40HT-1" H 5500 3100 50  0001 L BNN
+F 3 "https://www.buydisplay.com/download/connector/ER-CON40HT-1.pdf" H 5500 3100 50  0001 L BNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 4100
+Wire Wire Line
+	9100 4200 9100 4100
+Wire Wire Line
+	8800 4200 9100 4200
+Connection ~ 9500 2900
+Wire Wire Line
+	9100 2900 9500 2900
+Wire Wire Line
+	9100 4100 9100 2900
+Wire Wire Line
+	8800 4100 9100 4100
+Wire Wire Line
+	9650 2800 9650 2900
+Wire Wire Line
+	9500 2900 9650 2900
+Wire Wire Line
+	9650 3300 9650 3200
+Wire Wire Line
+	9500 3200 9650 3200
+$Comp
+L power:GNDD #PWR042
+U 1 1 60D66B06
+P 9650 3300
+F 0 "#PWR042" H 9650 3050 50  0001 C CNN
+F 1 "GNDD" H 9654 3145 50  0000 C CNN
+F 2 "" H 9650 3300 50  0001 C CNN
+F 3 "" H 9650 3300 50  0001 C CNN
+	1    9650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 60D64498
+P 9500 3050
+F 0 "C43" H 9200 3100 50  0000 L CNN
+F 1 "100nF" H 9150 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 2900 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 9500 3050 50  0001 C CNN
+	1    9500 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8800 4000
+Wire Wire Line
+	8800 3900 9350 3900
+Text HLabel 9350 3900 2    50   Output ~ 0
+LCD_INT
+Wire Wire Line
+	9350 3800 8800 3800
+Text HLabel 9350 3800 2    50   Input ~ 0
+LCD_RESET
+Wire Wire Line
+	9350 3700 8800 3700
+Wire Wire Line
+	9350 3600 8800 3600
+Text HLabel 9350 3700 2    50   Input ~ 0
+LCD_SCL
+Text HLabel 9350 3600 2    50   BiDi ~ 0
+LCD_SDA
+Connection ~ 8950 4300
+Wire Wire Line
+	8950 3500 8950 4300
+Wire Wire Line
+	8800 3500 8950 3500
+Connection ~ 8950 4400
+Wire Wire Line
+	8950 4300 8950 4400
+Wire Wire Line
+	8800 4300 8950 4300
+Wire Wire Line
+	8950 4400 8950 4500
+Wire Wire Line
+	8800 4400 8950 4400
+$Comp
+L power:GNDD #PWR040
+U 1 1 60D5E77C
+P 8950 4500
+F 0 "#PWR040" H 8950 4250 50  0001 C CNN
+F 1 "GNDD" H 8954 4345 50  0000 C CNN
+F 2 "" H 8950 4500 50  0001 C CNN
+F 3 "" H 8950 4500 50  0001 C CNN
+	1    8950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR041
+U 1 1 60D5E1CB
+P 9650 2800
+F 0 "#PWR041" H 9650 2650 50  0001 C CNN
+F 1 "+3V3" H 9665 2973 50  0000 C CNN
+F 2 "" H 9650 2800 50  0001 C CNN
+F 3 "" H 9650 2800 50  0001 C CNN
+	1    9650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3600 7700 3500
+Connection ~ 7700 3600
+Wire Wire Line
+	7800 3600 7700 3600
+Wire Wire Line
+	7700 3500 7800 3500
+Wire Wire Line
+	7700 3700 7700 3600
+$Comp
+L power:GNDD #PWR039
+U 1 1 60D5D40A
+P 7700 3700
+F 0 "#PWR039" H 7700 3450 50  0001 C CNN
+F 1 "GNDD" H 7704 3545 50  0000 C CNN
+F 2 "" H 7700 3700 50  0001 C CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+	1    7700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ER-CON10HT-1:ER-CON10HT-1 J6
+U 1 1 60D5C762
+P 7800 3500
+F 0 "J6" H 8300 3765 50  0000 C CNN
+F 1 "ER-CON10HT-1" H 8300 3674 50  0000 C CNN
+F 2 "ER-CONNECTOR:ER-CON10HT1" H 8650 3600 50  0001 L CNN
+F 3 "https://www.buydisplay.com/download/connector/ER-CON10HT-1.pdf" H 8650 3500 50  0001 L CNN
+	1    7800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 3700 3350
+Wire Notes Line
+	4600 6300 4300 6300
+Wire Notes Line
+	4300 6300 4300 6100
+Wire Notes Line
+	4300 6100 4600 6100
+Wire Notes Line
+	4600 3400 4300 3400
+Wire Notes Line
+	4300 3400 4300 6000
+Wire Notes Line
+	4300 6000 4600 6000
+Wire Wire Line
+	5500 3350 3700 3350
+Connection ~ 3700 3350
+Wire Wire Line
+	3700 3350 3700 3400
+Wire Notes Line
+	4300 6200 3650 6200
+Wire Notes Line
+	3650 6200 3650 5200
+Wire Notes Line
+	3150 5200 3150 4950
+Wire Notes Line
+	4150 5200 3150 5200
+Wire Notes Line
+	4150 4950 4150 5200
+Wire Notes Line
+	3150 4950 4150 4950
+Text Notes 3200 5150 0    50   ~ 0
+Must match net lengths.\n[Tolerance=2.54mm]
+Wire Notes Line
+	4150 5100 4300 5100
+$Comp
+L Jumper:SolderJumper_2_Open JP9
+U 1 1 60E32735
+P 1350 3400
+F 0 "JP9" H 1350 3500 50  0000 C CNN
+F 1 "3.3V" H 1350 3250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1350 3400 50  0001 C CNN
+F 3 "~" H 1350 3400 50  0001 C CNN
+	1    1350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP10
+U 1 1 60E32A39
+P 1350 3800
+F 0 "JP10" H 1350 3900 50  0000 C CNN
+F 1 "5V (Default)" H 1350 3650 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1350 3800 50  0001 C CNN
+F 3 "~" H 1350 3800 50  0001 C CNN
+	1    1350 3800
+	1    0    0    -1  
+$EndComp
+Text Label 1800 3600 0    50   ~ 0
+BLVDD
+Wire Wire Line
+	1500 3400 1500 3600
+Wire Wire Line
+	1800 3600 1500 3600
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 3600 1500 3800
+$Comp
+L power:+3V3 #PWR034
+U 1 1 60E38299
+P 1050 3250
+F 0 "#PWR034" H 1050 3100 50  0001 C CNN
+F 1 "+3V3" H 1065 3423 50  0000 C CNN
+F 2 "" H 1050 3250 50  0001 C CNN
+F 3 "" H 1050 3250 50  0001 C CNN
+	1    1050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR032
+U 1 1 60E38786
+P 800 3250
+F 0 "#PWR032" H 800 3100 50  0001 C CNN
+F 1 "+5V" H 815 3423 50  0000 C CNN
+F 2 "" H 800 3250 50  0001 C CNN
+F 3 "" H 800 3250 50  0001 C CNN
+	1    800  3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3250 1050 3400
+Wire Wire Line
+	1050 3400 1200 3400
+Wire Wire Line
+	800  3250 800  3800
+Wire Wire Line
+	800  3800 1200 3800
+$Comp
+L TPS61165DRVR:TPS61165DRVR U5
+U 1 1 60E58BE5
+P 2900 1700
+F 0 "U5" H 2925 2267 50  0000 C CNN
+F 1 "TPS61165DRVR" H 2925 2176 50  0000 C CNN
+F 2 "TPS61165DRVR:TPS61165DRVR" H 2600 2150 50  0001 L BNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61165" H 2900 1700 50  0001 L BNN
+	1    2900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR035
+U 1 1 60E59FED
+P 2950 2500
+F 0 "#PWR035" H 2950 2250 50  0001 C CNN
+F 1 "GND1" H 2955 2327 50  0000 C CNN
+F 2 "" H 2950 2500 50  0001 C CNN
+F 3 "" H 2950 2500 50  0001 C CNN
+	1    2950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1950 3450 2050
+Wire Wire Line
+	3450 1700 3750 1700
+$Comp
+L Device:C C38
+U 1 1 60E6C733
+P 1650 1900
+F 0 "C38" H 1300 1950 50  0000 L CNN
+F 1 "4.7uF" H 1300 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 1750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A475KAAJ-01.pdf" H 1650 1900 50  0001 C CNN
+	1    1650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L4
+U 1 1 60E6D243
+P 1350 1400
+F 0 "L4" V 1169 1400 50  0000 C CNN
+F 1 "BLM18AG601SH1D" V 1260 1400 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1350 1400 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/281/QNFA9101-1915702.pdf" H 1350 1400 50  0001 C CNN
+	1    1350 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1400 1650 1400
+Wire Wire Line
+	1650 1750 1650 1400
+Connection ~ 1650 1400
+Wire Wire Line
+	1650 1400 2250 1400
+$Comp
+L Device:C C39
+U 1 1 60E74CAB
+P 2400 2250
+F 0 "C39" H 2515 2296 50  0000 L CNN
+F 1 "220nF" H 2515 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 2100 50  0001 C CNN
+F 3 "~" H 2400 2250 50  0001 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2100 2400 2000
+Wire Wire Line
+	1650 2050 1650 2400
+Wire Wire Line
+	2400 2400 2950 2400
+Wire Wire Line
+	2950 2400 2950 2500
+Connection ~ 2400 2400
+Wire Wire Line
+	2950 2400 3450 2400
+Wire Wire Line
+	3450 2400 3450 2050
+Connection ~ 2950 2400
+Connection ~ 3450 2050
+Text Label 900  1400 2    50   ~ 0
+BLVDD
+Wire Wire Line
+	1200 1400 900  1400
+Text HLabel 900  1700 0    50   Input ~ 0
+LCD_BL
+$Comp
+L Device:L_Core_Ferrite L5
+U 1 1 60E8D1C1
+P 1350 2400
+F 0 "L5" V 1500 2400 50  0000 C CNN
+F 1 "BLM18AG601SH1D" V 1600 2400 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1350 2400 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/281/QNFA9101-1915702.pdf" H 1350 2400 50  0001 C CNN
+	1    1350 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 2400 1650 2400
+Connection ~ 1650 2400
+$Comp
+L power:GNDD #PWR033
+U 1 1 60E91830
+P 900 2400
+F 0 "#PWR033" H 900 2150 50  0001 C CNN
+F 1 "GNDD" V 904 2290 50  0000 R CNN
+F 2 "" H 900 2400 50  0001 C CNN
+F 3 "" H 900 2400 50  0001 C CNN
+	1    900  2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  2400 1200 2400
+$Comp
+L Device:L L6
+U 1 1 60E96793
+P 2900 950
+F 0 "L6" V 2719 950 50  0000 C CNN
+F 1 "10uH" V 2810 950 50  0000 C CNN
+F 2 "A915AY-100M_P3:IND_#A915AY-100M=P3" H 2900 950 50  0001 C CNN
+F 3 "https://www.murata.com/en-global/api/pdfdownloadapi?cate=cgInductors&partno=%23A915AY-100M%3DP3" H 2900 950 50  0001 C CNN
+	1    2900 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 950  2250 950 
+Wire Wire Line
+	2250 950  2250 1400
+Connection ~ 2250 1400
+Wire Wire Line
+	2250 1400 2400 1400
+$Comp
+L Device:R R3
+U 1 1 60E9B7AB
+P 3750 1900
+F 0 "R3" H 3820 1946 50  0000 L CNN
+F 1 "5.1 (1%)" H 3820 1855 50  0000 L CNN
+F 2 "" V 3680 1900 50  0001 C CNN
+F 3 "~" H 3750 1900 50  0001 C CNN
+	1    3750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1750 3750 1700
+Wire Wire Line
+	3750 2050 3750 2400
+Wire Wire Line
+	3750 2400 3450 2400
+Connection ~ 3450 2400
+$Comp
+L Device:C C42
+U 1 1 60EA46A4
+P 4300 1900
+F 0 "C42" H 4415 1946 50  0000 L CNN
+F 1 "1uF" H 4415 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 1750 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/281/1/GRM188R61E105KAAD_01A-1985793.pdf" H 4300 1900 50  0001 C CNN
+	1    4300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_ALT D2
+U 1 1 60EA63D8
+P 4000 1400
+F 0 "D2" H 4000 1183 50  0000 C CNN
+F 1 "ZHCS400TA" H 4000 1274 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 4000 1400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZHCS400.pdf" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1400 3650 1400
+Wire Wire Line
+	3050 950  3650 950 
+Wire Wire Line
+	3650 950  3650 1400
+Wire Wire Line
+	3850 1400 3650 1400
+Connection ~ 3650 1400
+Wire Wire Line
+	4300 1750 4300 1400
+Wire Wire Line
+	4300 1400 4150 1400
+Wire Wire Line
+	4300 2050 4300 2400
+Wire Wire Line
+	4300 2400 3750 2400
+Connection ~ 3750 2400
+Wire Wire Line
+	5500 3150 5150 3150
+Wire Wire Line
+	5150 3150 5150 1400
+Wire Wire Line
+	5150 1400 4300 1400
+Connection ~ 4300 1400
+Wire Wire Line
+	5500 3050 5250 3050
+Wire Wire Line
+	5250 3050 5250 1700
+Wire Wire Line
+	5250 1700 3750 1700
+Connection ~ 3750 1700
+Text Notes 4050 1000 0    50   ~ 0
+C42 and C44 must be ceramic\ncapacitor and low ESR
+$Comp
+L Device:CP C41
+U 1 1 60D62E33
+P 3850 3550
+F 0 "C41" H 3968 3596 50  0000 L CNN
+F 1 "4.7uF" H 3968 3505 50  0000 L CNN
+F 2 "595D475X9016A2T:595D475X9016A2T" H 3888 3400 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/427/595d-1763504.pdf" H 3850 3550 50  0001 C CNN
+	1    3850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3700 3700 3700
+Connection ~ 3700 3700
+Wire Wire Line
+	3850 3400 3700 3400
+Connection ~ 3700 3400
+$Comp
+L Device:CP C44
+U 1 1 60D6FDC6
+P 9800 3050
+F 0 "C44" H 9918 3096 50  0000 L CNN
+F 1 "4.7uF" H 9918 3005 50  0000 L CNN
+F 2 "595D475X9016A2T:595D475X9016A2T" H 9838 2900 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/427/595d-1763504.pdf" H 9800 3050 50  0001 C CNN
+	1    9800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3200 9650 3200
+Connection ~ 9650 3200
+Wire Wire Line
+	9800 2900 9650 2900
+Connection ~ 9650 2900
+Wire Wire Line
+	900  1700 2400 1700
+Wire Wire Line
+	1650 2400 2400 2400
+$Comp
+L power:GND1 #PWR0101
+U 1 1 610260A2
+P 1750 950
+F 0 "#PWR0101" H 1750 700 50  0001 C CNN
+F 1 "GND1" H 1755 777 50  0000 C CNN
+F 2 "" H 1750 950 50  0001 C CNN
+F 3 "" H 1750 950 50  0001 C CNN
+	1    1750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61027249
+P 1750 850
+F 0 "#FLG0103" H 1750 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1023 50  0000 C CNN
+F 2 "" H 1750 850 50  0001 C CNN
+F 3 "~" H 1750 850 50  0001 C CNN
+	1    1750 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 850  1750 950 
+$EndSCHEMATC

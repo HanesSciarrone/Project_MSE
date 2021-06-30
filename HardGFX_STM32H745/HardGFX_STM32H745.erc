@@ -1,0 +1,45 @@
+ERC report (vie 18 jun 2021 01:05:24, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(100,33 mm, 271,78 mm): Pin 1 (Power input) of component #PWR070 is not driven (Net 247).
+
+***** Sheet /Power/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(123,19 mm, 105,41 mm): Pin 43 (Power input) of component U1 is not driven (Net 157).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(246,38 mm, 102,87 mm): Pin 3 (Power input) of component U4 is not driven (Net 158).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(210,82 mm, 38,10 mm): Pin 3 (Power input) of component U2 is not driven (Net 168).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(123,19 mm, 77,47 mm): Pin 44 (Power input) of component U1 is not driven (Net 227).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(67,31 mm, 102,87 mm): Pin 8 (Power input) of component U1 is not driven (Net 228).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(67,31 mm, 97,79 mm): Pin 19 (Power input) of component U1 is not driven (Net 229).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(123,19 mm, 85,09 mm): Pin 154 (Power input) of component U1 is not driven (Net 241).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(67,31 mm, 95,25 mm): Pin 21 (Power input) of component U1 is not driven (Net 243).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(67,31 mm, 113,03 mm): Pin 199 (Power input) of component U1 is not driven (Net 245).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(123,19 mm, 92,71 mm): Pin 20 (Power input) of component U1 is not driven (Net 246).
+
+***** Sheet /Debug JTAG/
+
+***** Sheet /LCD/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(87,63 mm, 49,53 mm): Pin 3 (Power input) of component U5 is not driven (Net 218).
+
+***** Sheet /FLASH/
+
+***** Sheet /SDRAM/
+
+***** Sheet /USB OTG and Wi-Fi/
+
+***** Sheet /microSD/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(58,42 mm, 124,46 mm): Pin 1 (Power input) of component #PWR065 is not driven (Net 226).
+
+ ** ERC messages: 13  Errors 0  Warnings 13
