@@ -753,7 +753,7 @@ P 6550 3650
 F 0 "L1" V 6450 3650 50  0000 C CNN
 F 1 "FBMJ1608HM180NTR" V 6700 3650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 6550 3650 50  0001 C CNN
-F 3 "~" H 6550 3650 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/396/TaiyoYuden_chipbeads01_e-1274227.pdf" H 6550 3650 50  0001 C CNN
 	1    6550 3650
 	0    1    1    0   
 $EndComp
@@ -1538,7 +1538,7 @@ P 7450 5200
 F 0 "J3" H 7557 6067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 7557 5976 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 7600 5200 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7600 5200 50  0001 C CNN
+F 3 "" H 7600 5200 50  0001 C CNN
 	1    7450 5200
 	1    0    0    -1  
 $EndComp

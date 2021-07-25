@@ -18,9 +18,9 @@ L MT48LC4M32B2P-6A:MT48LC4M32B2P-6A U7
 U 1 1 60C84911
 P 8550 950
 F 0 "U7" H 9200 1175 50  0000 C CNN
-F 1 "MT48LC4M32B2P-6A" H 9200 1084 50  0000 C CNN
+F 1 "MT48LC4M32B2P-6A AIT:L TR " H 9200 1084 50  0000 C CNN
 F 2 "MT48LC4M32B2P-6A:MT48LC4M32B2P-6A" H 9700 1050 50  0001 L CNN
-F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/128mb_x32_sdram.pdf" H 9700 950 50  0001 L CNN
+F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/128mb_x32_ait-aat_sdram.pdf?rev=a9d800c71303471f9959cfa6eb9d64ce" H 9700 950 50  0001 L CNN
 	1    8550 950 
 	1    0    0    -1  
 $EndComp
