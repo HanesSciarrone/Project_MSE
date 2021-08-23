@@ -14,4 +14,5 @@
   (lib (name PJS008-2003-1)(type Legacy)(uri ${KIPRJMOD}/Library/Connector/PJS008-2003-1.lib)(options "")(descr ""))
   (lib (name CAS-D20TA)(type Legacy)(uri ${KIPRJMOD}/Library/Switch/CAS-D20TA.lib)(options "")(descr ""))
   (lib (name LQM2MPN2R2NG0L)(type Legacy)(uri ${KIPRJMOD}/Library/Inductors/LQM2MPN2R2NG0L.lib)(options "")(descr ""))
+  (lib (name MT25QL512ABB8ESF-0SIT)(type Legacy)(uri ${KIPRJMOD}/Library/Memories/MT25QL512ABB8ESF-0SIT.lib)(options "")(descr ""))
 )

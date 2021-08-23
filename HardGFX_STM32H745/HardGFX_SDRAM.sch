@@ -14,13 +14,17 @@ Comment3 "UBA - Facultad de Ingeniería"
 Comment4 ""
 $EndDescr
 $Comp
-L MT48LC4M32B2P-6A:MT48LC4M32B2P-6A U7
+L MT48LC4M32B2P-6A:MT48LC4M32B2P-6A U8
 U 1 1 60C84911
 P 8550 950
-F 0 "U7" H 9200 1175 50  0000 C CNN
+F 0 "U8" H 9200 1175 50  0000 C CNN
 F 1 "MT48LC4M32B2P-6A AIT:L TR " H 9200 1084 50  0000 C CNN
 F 2 "MT48LC4M32B2P-6A:MT48LC4M32B2P-6A" H 9700 1050 50  0001 L CNN
 F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/128mb_x32_ait-aat_sdram.pdf?rev=a9d800c71303471f9959cfa6eb9d64ce" H 9700 950 50  0001 L CNN
+F 4 "MT48LC4M32B2P-6AAIT:LTR-ND" H 8550 950 50  0001 C CNN "Digikey#"
+F 5 "Micron" H 8550 950 50  0001 C CNN "MANUFACTURER"
+F 6 "MT48LC4M32B2P-6A AIT:L TR" H 8550 950 50  0001 C CNN "Manf#"
+F 7 "340-128693-REEL" H 8550 950 50  0001 C CNN "Mouser#"
 	1    8550 950 
 	1    0    0    -1  
 $EndComp
@@ -31,10 +35,10 @@ NoConn ~ 8550 4100
 NoConn ~ 8550 4200
 NoConn ~ 8550 4300
 $Comp
-L power:GNDD #PWR048
+L power:GNDD #PWR061
 U 1 1 60C89194
 P 10050 5900
-F 0 "#PWR048" H 10050 5650 50  0001 C CNN
+F 0 "#PWR061" H 10050 5650 50  0001 C CNN
 F 1 "GNDD" H 10054 5745 50  0000 C CNN
 F 2 "" H 10050 5900 50  0001 C CNN
 F 3 "" H 10050 5900 50  0001 C CNN
@@ -98,10 +102,10 @@ Wire Wire Line
 	10050 4550 10050 4650
 Connection ~ 10050 4650
 $Comp
-L Device:C C57
+L Device:C C62
 U 1 1 60CA276A
 P 8350 6100
-F 0 "C57" H 8400 6200 50  0000 L CNN
+F 0 "C62" H 8400 6200 50  0000 L CNN
 F 1 "100nF" H 8400 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8388 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 8350 6100 50  0001 C CNN
@@ -109,10 +113,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C56
+L Device:C C61
 U 1 1 60CA9619
 P 7950 6100
-F 0 "C56" H 8000 6200 50  0000 L CNN
+F 0 "C61" H 8000 6200 50  0000 L CNN
 F 1 "100nF" H 8000 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 7950 6100 50  0001 C CNN
@@ -120,10 +124,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C55
+L Device:C C60
 U 1 1 60CA9AE0
 P 7550 6100
-F 0 "C55" H 7600 6200 50  0000 L CNN
+F 0 "C60" H 7600 6200 50  0000 L CNN
 F 1 "100nF" H 7600 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 7550 6100 50  0001 C CNN
@@ -131,10 +135,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C54
+L Device:C C59
 U 1 1 60CA9FB2
 P 7150 6100
-F 0 "C54" H 7200 6200 50  0000 L CNN
+F 0 "C59" H 7200 6200 50  0000 L CNN
 F 1 "100nF" H 7200 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 7150 6100 50  0001 C CNN
@@ -142,10 +146,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C53
+L Device:C C58
 U 1 1 60CAA49C
 P 6750 6100
-F 0 "C53" H 6800 6200 50  0000 L CNN
+F 0 "C58" H 6800 6200 50  0000 L CNN
 F 1 "100nF" H 6800 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 6750 6100 50  0001 C CNN
@@ -153,10 +157,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C52
+L Device:C C57
 U 1 1 60CAA9B8
 P 6350 6100
-F 0 "C52" H 6400 6200 50  0000 L CNN
+F 0 "C57" H 6400 6200 50  0000 L CNN
 F 1 "100nF" H 6400 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 6350 6100 50  0001 C CNN
@@ -164,10 +168,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C51
+L Device:C C56
 U 1 1 60CAAE57
 P 5950 6100
-F 0 "C51" H 6000 6200 50  0000 L CNN
+F 0 "C56" H 6000 6200 50  0000 L CNN
 F 1 "100nF" H 6000 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 5950 6100 50  0001 C CNN
@@ -175,10 +179,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C50
+L Device:C C55
 U 1 1 60CAB4AD
 P 5550 6100
-F 0 "C50" H 5600 6200 50  0000 L CNN
+F 0 "C55" H 5600 6200 50  0000 L CNN
 F 1 "100nF" H 5600 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 5550 6100 50  0001 C CNN
@@ -186,10 +190,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C49
+L Device:C C54
 U 1 1 60CAB950
 P 5150 6100
-F 0 "C49" H 5200 6200 50  0000 L CNN
+F 0 "C54" H 5200 6200 50  0000 L CNN
 F 1 "100nF" H 5200 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 5150 6100 50  0001 C CNN
@@ -197,10 +201,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C48
+L Device:C C53
 U 1 1 60CABDFE
 P 4750 6100
-F 0 "C48" H 4800 6200 50  0000 L CNN
+F 0 "C53" H 4800 6200 50  0000 L CNN
 F 1 "100nF" H 4800 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 4750 6100 50  0001 C CNN
@@ -208,10 +212,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C47
+L Device:C C52
 U 1 1 60CAC5B6
 P 4350 6100
-F 0 "C47" H 4400 6200 50  0000 L CNN
+F 0 "C52" H 4400 6200 50  0000 L CNN
 F 1 "100nF" H 4400 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 4350 6100 50  0001 C CNN
@@ -219,10 +223,10 @@ F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.p
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C46
+L Device:C C51
 U 1 1 60CAC9CB
 P 3950 6100
-F 0 "C46" H 4000 6200 50  0000 L CNN
+F 0 "C51" H 4000 6200 50  0000 L CNN
 F 1 "100nF" H 4000 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 5950 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 3950 6100 50  0001 C CNN
@@ -233,10 +237,10 @@ Wire Wire Line
 	10050 5900 10050 5750
 Connection ~ 10050 5750
 $Comp
-L power:GNDD #PWR047
+L power:GNDD #PWR060
 U 1 1 60CBEAC0
 P 6150 6400
-F 0 "#PWR047" H 6150 6150 50  0001 C CNN
+F 0 "#PWR060" H 6150 6150 50  0001 C CNN
 F 1 "GNDD" H 6154 6245 50  0000 C CNN
 F 2 "" H 6150 6400 50  0001 C CNN
 F 3 "" H 6150 6400 50  0001 C CNN
@@ -409,10 +413,10 @@ Connection ~ 8450 4550
 Wire Wire Line
 	8450 4550 8550 4550
 $Comp
-L power:+3V3 #PWR046
+L power:+3V3 #PWR059
 U 1 1 60CFFF60
 P 3950 4450
-F 0 "#PWR046" H 3950 4300 50  0001 C CNN
+F 0 "#PWR059" H 3950 4300 50  0001 C CNN
 F 1 "+3V3" H 3965 4623 50  0000 C CNN
 F 2 "" H 3950 4450 50  0001 C CNN
 F 3 "" H 3950 4450 50  0001 C CNN
