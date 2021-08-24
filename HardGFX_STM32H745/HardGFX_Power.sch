@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "Power"
-Date "2021-08-23"
+Date "2021-08-24"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -755,6 +755,10 @@ F 0 "L3" V 6450 3650 50  0000 C CNN
 F 1 "FBMJ1608HM180NTR" V 6700 3650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 6550 3650 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/396/TaiyoYuden_chipbeads01_e-1274227.pdf" H 6550 3650 50  0001 C CNN
+F 4 "587-3251-1-ND" H 6550 3650 50  0001 C CNN "Digikey#"
+F 5 "Taiyo Yuden" H 6550 3650 50  0001 C CNN "MANUFACTURER"
+F 6 "FBMJ1608HM180NTR" H 6550 3650 50  0001 C CNN "Manf#"
+F 7 "963-FBMJ1608HM180NTR" H 6550 3650 50  0001 C CNN "Mouser#"
 	1    6550 3650
 	0    1    1    0   
 $EndComp
@@ -785,7 +789,11 @@ P 6550 3050
 F 0 "L2" V 6775 3050 50  0000 C CNN
 F 1 "BLM18AG601SH1D" V 6700 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 6550 3050 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/281/QNFA9101-1915702.pdf" H 6550 3050 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796737273886/QNFA9101.pdf" H 6550 3050 50  0001 C CNN
+F 4 "490-7811-1-ND" H 6550 3050 50  0001 C CNN "Digikey#"
+F 5 "Murata Electronics" H 6550 3050 50  0001 C CNN "MANUFACTURER"
+F 6 "BLM18AG601SH1D" H 6550 3050 50  0001 C CNN "Manf#"
+F 7 "81-BLM18AG601SH1D" H 6550 3050 50  0001 C CNN "Mouser#"
 	1    6550 3050
 	0    -1   -1   0   
 $EndComp
@@ -1040,7 +1048,11 @@ P 1400 3500
 F 0 "L1" H 1356 3454 50  0000 R CNN
 F 1 "2.2uH" H 1356 3545 50  0000 R CNN
 F 2 "LQM2MPN2R2NG0L:INDC2016X100N" H 1400 3500 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/281/JELF243B-0022-1699512.pdf" H 1400 3500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0022.pdf" H 1400 3500 50  0001 C CNN
+F 4 "490-7786-1-ND" H 1400 3500 50  0001 C CNN "Digikey#"
+F 5 "Murata Electronics" H 1400 3500 50  0001 C CNN "MANUFACTURER"
+F 6 "LQM2MPN2R2NG0L" H 1400 3500 50  0001 C CNN "Manf#"
+F 7 "81-LQM2MPN2R2NG0L" H 1400 3500 50  0001 C CNN "Mouser#"
 	1    1400 3500
 	-1   0    0    1   
 $EndComp
@@ -1285,6 +1297,10 @@ F 0 "TP5" V 10454 1688 50  0000 L CNN
 F 1 "TestPoint" V 10545 1688 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10700 1500 50  0001 C CNN
 F 3 "~" H 10700 1500 50  0001 C CNN
+F 4 "-" H 10500 1500 50  0001 C CNN "Digikey#"
+F 5 "-" H 10500 1500 50  0001 C CNN "MANUFACTURER"
+F 6 "-" H 10500 1500 50  0001 C CNN "Manf#"
+F 7 "-" H 10500 1500 50  0001 C CNN "Mouser#"
 	1    10500 1500
 	0    1    1    0   
 $EndComp
@@ -1365,6 +1381,10 @@ F 0 "TP4" V 9604 3088 50  0000 L CNN
 F 1 "TestPoint" V 9695 3088 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9850 2900 50  0001 C CNN
 F 3 "~" H 9850 2900 50  0001 C CNN
+F 4 "-" H 9650 2900 50  0001 C CNN "Digikey#"
+F 5 "-" H 9650 2900 50  0001 C CNN "MANUFACTURER"
+F 6 "-" H 9650 2900 50  0001 C CNN "Manf#"
+F 7 "-" H 9650 2900 50  0001 C CNN "Mouser#"
 	1    9650 2900
 	0    1    1    0   
 $EndComp
@@ -1472,10 +1492,11 @@ P 6200 1350
 F 0 "J1" H 6250 1475 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 6250 1476 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6200 1350 50  0001 C CNN
-F 3 "~" H 6200 1350 50  0001 C CNN
-F 4 "" H 6200 1350 50  0001 C CNN "MANUFACTURER"
-F 5 "" H 6200 1350 50  0001 C CNN "Manf#"
-F 6 "" H 6200 1350 50  0001 C CNN "Mouser#"
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75844.pdf" H 6200 1350 50  0001 C CNN
+F 4 "Amphenol FCI" H 6200 1350 50  0001 C CNN "MANUFACTURER"
+F 5 "75844-302-04LF" H 6200 1350 50  0001 C CNN "Manf#"
+F 6 "649-75844-302-04LF" H 6200 1350 50  0001 C CNN "Mouser#"
+F 7 "75844-302-04LF-ND" H 6200 1350 50  0001 C CNN "Digikey#"
 	1    6200 1350
 	1    0    0    -1  
 $EndComp
@@ -1558,7 +1579,11 @@ P 7450 5200
 F 0 "J2" H 7557 6067 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 7557 5976 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 7600 5200 50  0001 C CNN
-F 3 "" H 7600 5200 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401610e4x2a.pdf" H 7600 5200 50  0001 C CNN
+F 4 "12401610E4#2ACT-ND" H 7450 5200 50  0001 C CNN "Digikey#"
+F 5 "Amphenol Commercial Products" H 7450 5200 50  0001 C CNN "MANUFACTURER"
+F 6 "12401610E4#2A" H 7450 5200 50  0001 C CNN "Manf#"
+F 7 "523-12401610E4#2A" H 7450 5200 50  0001 C CNN "Mouser#"
 	1    7450 5200
 	1    0    0    -1  
 $EndComp
@@ -1646,6 +1671,10 @@ F 0 "TP2" H 8500 6250 50  0000 L CNN
 F 1 "TestPoint" H 8350 6150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8950 6100 50  0001 C CNN
 F 3 "~" H 8950 6100 50  0001 C CNN
+F 4 "-" H 8750 6100 50  0001 C CNN "Digikey#"
+F 5 "-" H 8750 6100 50  0001 C CNN "MANUFACTURER"
+F 6 "-" H 8750 6100 50  0001 C CNN "Manf#"
+F 7 "-" H 8750 6100 50  0001 C CNN "Mouser#"
 	1    8750 6100
 	1    0    0    -1  
 $EndComp
@@ -1657,6 +1686,10 @@ F 0 "TP3" H 9250 6250 50  0000 L CNN
 F 1 "TestPoint" H 9250 6150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9350 6100 50  0001 C CNN
 F 3 "~" H 9350 6100 50  0001 C CNN
+F 4 "-" H 9150 6100 50  0001 C CNN "Digikey#"
+F 5 "-" H 9150 6100 50  0001 C CNN "MANUFACTURER"
+F 6 "-" H 9150 6100 50  0001 C CNN "Manf#"
+F 7 "-" H 9150 6100 50  0001 C CNN "Mouser#"
 	1    9150 6100
 	1    0    0    -1  
 $EndComp

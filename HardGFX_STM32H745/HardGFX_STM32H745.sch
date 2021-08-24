@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 8
 Title "Main"
-Date "2021-08-23"
+Date "2021-08-24"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -1639,6 +1639,10 @@ F 0 "TP1" V 13404 5288 50  0000 L CNN
 F 1 "TestPoint" V 13495 5288 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13650 5100 50  0001 C CNN
 F 3 "~" H 13650 5100 50  0001 C CNN
+F 4 "-" H 13450 5100 50  0001 C CNN "Digikey#"
+F 5 "-" H 13450 5100 50  0001 C CNN "MANUFACTURER"
+F 6 "-" H 13450 5100 50  0001 C CNN "Manf#"
+F 7 "-" H 13450 5100 50  0001 C CNN "Mouser#"
 	1    13450 5100
 	0    1    1    0   
 $EndComp

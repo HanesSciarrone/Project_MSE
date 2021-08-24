@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "USB OTG and Wi-Fi"
-Date "2021-08-22"
+Date "2021-08-24"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -22,10 +22,13 @@ P 10200 3350
 F 0 "J9" H 10250 3915 50  0000 C CNN
 F 1 "47590-0001" H 10250 3824 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 9950 2600 50  0001 L BNN
-F 3 "https://ar.mouser.com/datasheet/2/276/0475900001_IO_CONNECTORS-704847.pdf" H 10200 3350 50  0001 L BNN
-F 4 "MOLEX INC" H 10100 2400 50  0001 L BNN "MANUFACTURER"
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0475900001_IO_CONNECTORS.pdf" H 10200 3350 50  0001 L BNN
+F 4 "Molex" H 10100 2400 50  0001 L BNN "MANUFACTURER"
 F 5 "Manufacturer Recommendations" H 9750 2700 50  0001 L BNN "STANDARD"
 F 6 "B1" H 10250 2500 50  0001 L BNN "PARTREV"
+F 7 "2266-47590-0001-ND" H 10200 3350 50  0001 C CNN "Digikey#"
+F 8 "47590-0001" H 10200 3350 50  0001 C CNN "Manf#"
+F 9 "538-47590-0001" H 10200 3350 50  0001 C CNN "Mouser#"
 	1    10200 3350
 	1    0    0    -1  
 $EndComp
@@ -625,7 +628,11 @@ P 5350 3700
 F 0 "J8" H 5400 3917 50  0000 C CNN
 F 1 "Boot Option" H 5400 3826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5350 3700 50  0001 C CNN
-F 3 "~" H 5350 3700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/54101.pdf" H 5350 3700 50  0001 C CNN
+F 4 "54101-S0802LF-ND" H 5350 3700 50  0001 C CNN "Digikey#"
+F 5 "Amphenol FCI" H 5350 3700 50  0001 C CNN "MANUFACTURER"
+F 6 "54101-S0802LF" H 5350 3700 50  0001 C CNN "Manf#"
+F 7 "649-54101-S0802LF" H 5350 3700 50  0001 C CNN "Mouser#"
 	1    5350 3700
 	1    0    0    -1  
 $EndComp
@@ -655,7 +662,11 @@ P 1050 3750
 F 0 "J6" H 1050 3300 50  0000 C CNN
 F 1 "UART" H 1050 3400 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 1050 3750 50  0001 C CNN
-F 3 "~" H 1050 3750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/54101.pdf" H 1050 3750 50  0001 C CNN
+F 4 "54101-G1004LF-ND" H 1050 3750 50  0001 C CNN "Digikey#"
+F 5 "Amphenol FCI" H 1050 3750 50  0001 C CNN "MANUFACTURER"
+F 6 "54101-G1004LF" H 1050 3750 50  0001 C CNN "Manf#"
+F 7 "649-54101-G1004LF" H 1050 3750 50  0001 C CNN "Mouser#"
 	1    1050 3750
 	-1   0    0    1   
 $EndComp
@@ -706,7 +717,11 @@ P 5250 4350
 F 0 "J7" H 5330 4342 50  0000 L CNN
 F 1 "JTAG" H 5330 4251 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 5250 4350 50  0001 C CNN
-F 3 "~" H 5250 4350 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/54101.pdf" H 5250 4350 50  0001 C CNN
+F 4 "54101-G1004LF-ND" H 5250 4350 50  0001 C CNN "Digikey#"
+F 5 "Amphenol FCI" H 5250 4350 50  0001 C CNN "MANUFACTURER"
+F 6 "54101-G1004LF" H 5250 4350 50  0001 C CNN "Manf#"
+F 7 "649-54101-G1004LF" H 5250 4350 50  0001 C CNN "Mouser#"
 	1    5250 4350
 	1    0    0    -1  
 $EndComp
@@ -783,7 +798,11 @@ P 10150 5350
 F 0 "Q1" H 10341 5396 50  0000 L CNN
 F 1 "BSR14" H 10341 5305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 5450 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/308/1/BSR14_D-2310224.pdf" H 10150 5350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/bsr14-d.pdf" H 10150 5350 50  0001 C CNN
+F 4 "BSR14CT-ND" H 10150 5350 50  0001 C CNN "Digikey#"
+F 5 "onsemi / Fairchild" H 10150 5350 50  0001 C CNN "MANUFACTURER"
+F 6 "BSR14 " H 10150 5350 50  0001 C CNN "Manf#"
+F 7 "512-BSR14" H 10150 5350 50  0001 C CNN "Mouser#"
 	1    10150 5350
 	1    0    0    -1  
 $EndComp

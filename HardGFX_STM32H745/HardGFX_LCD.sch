@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "LCD"
-Date "2021-06-19"
+Date "2021-08-24"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -502,7 +502,11 @@ P 1350 1400
 F 0 "L4" V 1169 1400 50  0000 C CNN
 F 1 "BLM18AG601SH1D" V 1260 1400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 1350 1400 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/281/QNFA9101-1915702.pdf" H 1350 1400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796737273886/QNFA9101.pdf" H 1350 1400 50  0001 C CNN
+F 4 "490-7811-1-ND" H 1350 1400 50  0001 C CNN "Digikey#"
+F 5 "Murata Electronics" H 1350 1400 50  0001 C CNN "MANUFACTURER"
+F 6 "BLM18AG601SH1D" H 1350 1400 50  0001 C CNN "Manf#"
+F 7 "81-BLM18AG601SH1D" H 1350 1400 50  0001 C CNN "Mouser#"
 	1    1350 1400
 	0    1    1    0   
 $EndComp
@@ -552,7 +556,11 @@ P 1350 2400
 F 0 "L5" V 1500 2400 50  0000 C CNN
 F 1 "BLM18AG601SH1D" V 1600 2400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 1350 2400 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/281/QNFA9101-1915702.pdf" H 1350 2400 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796737273886/QNFA9101.pdf" H 1350 2400 50  0001 C CNN
+F 4 "490-7811-1-ND" H 1350 2400 50  0001 C CNN "Digikey#"
+F 5 "Murata Electronics" H 1350 2400 50  0001 C CNN "MANUFACTURER"
+F 6 "BLM18AG601SH1D" H 1350 2400 50  0001 C CNN "Manf#"
+F 7 "81-BLM18AG601SH1D" H 1350 2400 50  0001 C CNN "Mouser#"
 	1    1350 2400
 	0    1    1    0   
 $EndComp
@@ -580,6 +588,10 @@ F 0 "L6" V 2719 950 50  0000 C CNN
 F 1 "10uH" V 2810 950 50  0000 C CNN
 F 2 "A915AY-100M_P3:IND_#A915AY-100M=P3" H 2900 950 50  0001 C CNN
 F 3 "https://www.murata.com/en-global/api/pdfdownloadapi?cate=cgInductors&partno=%23A915AY-100M%3DP3" H 2900 950 50  0001 C CNN
+F 4 "490-16513-1-ND" H 2900 950 50  0001 C CNN "Digikey#"
+F 5 "Murata Electronics" H 2900 950 50  0001 C CNN "MANUFACTURER"
+F 6 "#A915AY-100M=P3" H 2900 950 50  0001 C CNN "Manf#"
+F 7 "81-#A915AY-100M=P3" H 2900 950 50  0001 C CNN "Mouser#"
 	1    2900 950 
 	0    1    1    0   
 $EndComp

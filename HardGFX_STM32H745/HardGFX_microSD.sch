@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title "microSD"
-Date "2021-06-19"
+Date "2021-08-24"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -21,6 +21,10 @@ F 0 "J10" H 5200 7225 50  0000 C CNN
 F 1 "PJS008-2003-1" H 5200 7316 50  0000 C CNN
 F 2 "PJS008-2003-1:PJS00820031" H 4850 7250 50  0001 L CNN
 F 3 "https://datasheet.ciiva.com/12072/microsd-e-714-12072053.pdf" H 5400 7100 50  0001 L CNN
+F 4 "2408-PJS008-2003-1TR-ND" H 4650 7100 50  0001 C CNN "Digikey#"
+F 5 "Yamaichi Electronics" H 4650 7100 50  0001 C CNN "MANUFACTURER"
+F 6 "PJS008-2003-1" H 4650 7100 50  0001 C CNN "Manf#"
+F 7 "945-PJS008-2003-1" H 4650 7100 50  0001 C CNN "Mouser#"
 	1    4650 7100
 	-1   0    0    1   
 $EndComp
