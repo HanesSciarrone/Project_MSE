@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "FLASH"
-Date "2021-08-24"
+Date "2021-08-25"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -35,7 +35,11 @@ AR Path="/60C3D578/60C03F95" Ref="C49"  Part="1"
 F 0 "C49" H 1515 4446 50  0000 L CNN
 F 1 "100nF" H 1515 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 4250 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 1400 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1400 4400 50  0001 C CNN
+F 4 "311-1088-1-ND" H 1400 4400 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 1400 4400 50  0001 C CNN "MANUFACTURER"
+F 6 "CC0603KRX7R7BB104" H 1400 4400 50  0001 C CNN "Manf#"
+F 7 "603-CC603KRX7R7BB104" H 1400 4400 50  0001 C CNN "Mouser#"
 	1    1400 4400
 	1    0    0    -1  
 $EndComp
@@ -61,7 +65,11 @@ AR Path="/60C3D578/60C06656" Ref="R10"  Part="1"
 F 0 "R10" H 2600 4600 50  0000 C CNN
 F 1 "10K" H 2600 4700 50  0000 C CNN
 F 2 "" V 2680 4650 50  0001 C CNN
-F 3 "~" H 2750 4650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 4650 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 2750 4650 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 2750 4650 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0710KL" H 2750 4650 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0710KL" H 2750 4650 50  0001 C CNN "Mouser#"
 	1    2750 4650
 	-1   0    0    1   
 $EndComp
@@ -315,7 +323,11 @@ AR Path="/60C3D578/6135F672" Ref="C50"  Part="1"
 F 0 "C50" H 6765 4446 50  0000 L CNN
 F 1 "100nF" H 6765 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 4250 50  0001 C CNN
-F 3 "https://ar.mouser.com/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 6650 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6650 4400 50  0001 C CNN
+F 4 "311-1088-1-ND" H 6650 4400 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 6650 4400 50  0001 C CNN "MANUFACTURER"
+F 6 "CC0603KRX7R7BB104" H 6650 4400 50  0001 C CNN "Manf#"
+F 7 "603-CC603KRX7R7BB104" H 6650 4400 50  0001 C CNN "Mouser#"
 	1    6650 4400
 	1    0    0    -1  
 $EndComp

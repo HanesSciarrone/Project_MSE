@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title "microSD"
-Date "2021-08-24"
+Date "2021-08-25"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -100,7 +100,11 @@ P 2750 5500
 F 0 "R23" V 2543 5500 50  0000 C CNN
 F 1 "0(5%)" V 2634 5500 50  0000 C CNN
 F 2 "" V 2680 5500 50  0001 C CNN
-F 3 "~" H 2750 5500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 5500 50  0001 C CNN
+F 4 "311-0.0GRCT-ND" H 2750 5500 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 2750 5500 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603JR-070RL" H 2750 5500 50  0001 C CNN "Manf#"
+F 7 "603-RC0603JR-070RL" H 2750 5500 50  0001 C CNN "Mouser#"
 	1    2750 5500
 	0    1    1    0   
 $EndComp
@@ -111,7 +115,11 @@ P 2300 5250
 F 0 "R21" H 2230 5204 50  0000 R CNN
 F 1 "10K" H 2230 5295 50  0000 R CNN
 F 2 "" V 2230 5250 50  0001 C CNN
-F 3 "~" H 2300 5250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2300 5250 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 2300 5250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 2300 5250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0710KL" H 2300 5250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0710KL" H 2300 5250 50  0001 C CNN "Mouser#"
 	1    2300 5250
 	-1   0    0    1   
 $EndComp
@@ -144,7 +152,11 @@ P 1450 3250
 F 0 "R19" H 1520 3296 50  0000 L CNN
 F 1 "47K(1%)" H 1520 3205 50  0000 L CNN
 F 2 "" V 1380 3250 50  0001 C CNN
-F 3 "~" H 1450 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1450 3250 50  0001 C CNN
+F 4 "311-47.0KHRCT-ND" H 1450 3250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 1450 3250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0747KL" H 1450 3250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0747KL" H 1450 3250 50  0001 C CNN "Mouser#"
 	1    1450 3250
 	1    0    0    -1  
 $EndComp
@@ -155,7 +167,11 @@ P 1950 3250
 F 0 "R20" H 2020 3296 50  0000 L CNN
 F 1 "47K(1%)" H 2020 3205 50  0000 L CNN
 F 2 "" V 1880 3250 50  0001 C CNN
-F 3 "~" H 1950 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 1950 3250 50  0001 C CNN
+F 4 "311-47.0KHRCT-ND" H 1950 3250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 1950 3250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0747KL" H 1950 3250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0747KL" H 1950 3250 50  0001 C CNN "Mouser#"
 	1    1950 3250
 	1    0    0    -1  
 $EndComp
@@ -166,7 +182,11 @@ P 2450 3250
 F 0 "R22" H 2520 3296 50  0000 L CNN
 F 1 "47K(1%)" H 2520 3205 50  0000 L CNN
 F 2 "" V 2380 3250 50  0001 C CNN
-F 3 "~" H 2450 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2450 3250 50  0001 C CNN
+F 4 "311-47.0KHRCT-ND" H 2450 3250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 2450 3250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0747KL" H 2450 3250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0747KL" H 2450 3250 50  0001 C CNN "Mouser#"
 	1    2450 3250
 	1    0    0    -1  
 $EndComp
@@ -177,7 +197,11 @@ P 2950 3250
 F 0 "R24" H 3020 3296 50  0000 L CNN
 F 1 "47K(1%)" H 3020 3205 50  0000 L CNN
 F 2 "" V 2880 3250 50  0001 C CNN
-F 3 "~" H 2950 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2950 3250 50  0001 C CNN
+F 4 "311-47.0KHRCT-ND" H 2950 3250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 2950 3250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0747KL" H 2950 3250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0747KL" H 2950 3250 50  0001 C CNN "Mouser#"
 	1    2950 3250
 	1    0    0    -1  
 $EndComp
@@ -188,7 +212,11 @@ P 3450 3250
 F 0 "R25" H 3520 3296 50  0000 L CNN
 F 1 "47K(1%)" H 3520 3205 50  0000 L CNN
 F 2 "" V 3380 3250 50  0001 C CNN
-F 3 "~" H 3450 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 3450 3250 50  0001 C CNN
+F 4 "311-47.0KHRCT-ND" H 3450 3250 50  0001 C CNN "Digikey#"
+F 5 "YAGEO" H 3450 3250 50  0001 C CNN "MANUFACTURER"
+F 6 "RC0603FR-0747KL" H 3450 3250 50  0001 C CNN "Manf#"
+F 7 "603-RC0603FR-0747KL" H 3450 3250 50  0001 C CNN "Mouser#"
 	1    3450 3250
 	1    0    0    -1  
 $EndComp

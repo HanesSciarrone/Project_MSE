@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "Debug JTAG"
-Date "2021-08-24"
+Date "2021-08-25"
 Rev "Rev. 1"
 Comp "HardGFX"
 Comment1 "Esp. Eng. Sciarrone, Hanes Nahuel"
@@ -19,8 +19,12 @@ U 1 1 60C12D28
 P 4350 3000
 F 0 "J3" H 3907 3046 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 3907 2955 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 4350 3000 50  0001 C CNN
-F 3 "" V 4000 1750 50  0001 C CNN
+F 2 "" H 4350 3000 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" V 4000 1750 50  0001 C CNN
+F 4 "SAM8799-ND" H 4350 3000 50  0001 C CNN "Digikey#"
+F 5 "Samtec" H 4350 3000 50  0001 C CNN "MANUFACTURER"
+F 6 "FTSH-105-01-L-DV-K" H 4350 3000 50  0001 C CNN "Manf#"
+F 7 "200-FTSH10501LDVK" H 4350 3000 50  0001 C CNN "Mouser#"
 	1    4350 3000
 	1    0    0    -1  
 $EndComp
