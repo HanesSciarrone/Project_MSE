@@ -23,8 +23,9 @@ F 2 "MT48LC4M32B2P-6A:MT48LC4M32B2P-6A" H 9700 1050 50  0001 L CNN
 F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/128mb_x32_ait-aat_sdram.pdf?rev=a9d800c71303471f9959cfa6eb9d64ce" H 9700 950 50  0001 L CNN
 F 4 "MT48LC4M32B2P-6AAIT:LTR-ND" H 8550 950 50  0001 C CNN "Digikey#"
 F 5 "Micron" H 8550 950 50  0001 C CNN "MANUFACTURER"
-F 6 "MT48LC4M32B2P-6A AIT:L TR" H 8550 950 50  0001 C CNN "Manf#"
+F 6 "" H 8550 950 50  0001 C CNN "Manf#"
 F 7 "340-128693-REEL" H 8550 950 50  0001 C CNN "Mouser#"
+F 8 "MT48LC4M32B2P-6A AIT:L TR" H 8550 950 50  0001 C CNN "manf#"
 	1    8550 950 
 	1    0    0    -1  
 $EndComp
@@ -111,8 +112,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 8388 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8350 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 8350 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 8350 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 8350 6100 50  0001 C CNN "Manf#"
+F 6 "" H 8350 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 8350 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 8350 6100 50  0001 C CNN "manf#"
 	1    8350 6100
 	1    0    0    -1  
 $EndComp
@@ -126,8 +128,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7950 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 7950 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 7950 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 7950 6100 50  0001 C CNN "Manf#"
+F 6 "" H 7950 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 7950 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 7950 6100 50  0001 C CNN "manf#"
 	1    7950 6100
 	1    0    0    -1  
 $EndComp
@@ -141,8 +144,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7550 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 7550 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 7550 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 7550 6100 50  0001 C CNN "Manf#"
+F 6 "" H 7550 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 7550 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 7550 6100 50  0001 C CNN "manf#"
 	1    7550 6100
 	1    0    0    -1  
 $EndComp
@@ -156,8 +160,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7150 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 7150 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 7150 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 7150 6100 50  0001 C CNN "Manf#"
+F 6 "" H 7150 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 7150 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 7150 6100 50  0001 C CNN "manf#"
 	1    7150 6100
 	1    0    0    -1  
 $EndComp
@@ -171,8 +176,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6750 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 6750 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 6750 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 6750 6100 50  0001 C CNN "Manf#"
+F 6 "" H 6750 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 6750 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 6750 6100 50  0001 C CNN "manf#"
 	1    6750 6100
 	1    0    0    -1  
 $EndComp
@@ -186,8 +192,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6350 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 6350 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 6350 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 6350 6100 50  0001 C CNN "Manf#"
+F 6 "" H 6350 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 6350 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 6350 6100 50  0001 C CNN "manf#"
 	1    6350 6100
 	1    0    0    -1  
 $EndComp
@@ -201,8 +208,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5950 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 5950 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 5950 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 5950 6100 50  0001 C CNN "Manf#"
+F 6 "" H 5950 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 5950 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 5950 6100 50  0001 C CNN "manf#"
 	1    5950 6100
 	1    0    0    -1  
 $EndComp
@@ -216,8 +224,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5550 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 5550 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 5550 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 5550 6100 50  0001 C CNN "Manf#"
+F 6 "" H 5550 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 5550 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 5550 6100 50  0001 C CNN "manf#"
 	1    5550 6100
 	1    0    0    -1  
 $EndComp
@@ -231,8 +240,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5150 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 5150 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 5150 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 5150 6100 50  0001 C CNN "Manf#"
+F 6 "" H 5150 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 5150 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 5150 6100 50  0001 C CNN "manf#"
 	1    5150 6100
 	1    0    0    -1  
 $EndComp
@@ -246,8 +256,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4750 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 4750 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 4750 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 4750 6100 50  0001 C CNN "Manf#"
+F 6 "" H 4750 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 4750 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 4750 6100 50  0001 C CNN "manf#"
 	1    4750 6100
 	1    0    0    -1  
 $EndComp
@@ -261,8 +272,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4350 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 4350 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 4350 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 4350 6100 50  0001 C CNN "Manf#"
+F 6 "" H 4350 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 4350 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 4350 6100 50  0001 C CNN "manf#"
 	1    4350 6100
 	1    0    0    -1  
 $EndComp
@@ -276,8 +288,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3988 5950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3950 6100 50  0001 C CNN
 F 4 "311-1088-1-ND" H 3950 6100 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 3950 6100 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 3950 6100 50  0001 C CNN "Manf#"
+F 6 "" H 3950 6100 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 3950 6100 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 3950 6100 50  0001 C CNN "manf#"
 	1    3950 6100
 	1    0    0    -1  
 $EndComp

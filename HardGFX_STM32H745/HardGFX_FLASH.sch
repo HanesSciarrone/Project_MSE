@@ -38,8 +38,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 4250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1400 4400 50  0001 C CNN
 F 4 "311-1088-1-ND" H 1400 4400 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 1400 4400 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 1400 4400 50  0001 C CNN "Manf#"
+F 6 "" H 1400 4400 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 1400 4400 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 1400 4400 50  0001 C CNN "manf#"
 	1    1400 4400
 	1    0    0    -1  
 $EndComp
@@ -68,8 +69,9 @@ F 2 "" V 2680 4650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 4650 50  0001 C CNN
 F 4 "311-10.0KHRCT-ND" H 2750 4650 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 2750 4650 50  0001 C CNN "MANUFACTURER"
-F 6 "RC0603FR-0710KL" H 2750 4650 50  0001 C CNN "Manf#"
+F 6 "" H 2750 4650 50  0001 C CNN "Manf#"
 F 7 "603-RC0603FR-0710KL" H 2750 4650 50  0001 C CNN "Mouser#"
+F 8 "RC0603FR-0710KL" H 2750 4650 50  0001 C CNN "manf#"
 	1    2750 4650
 	-1   0    0    1   
 $EndComp
@@ -174,9 +176,10 @@ F 1 "MT25QL512ABB8ESF-0SIT" H 3825 4324 50  0000 C CNN
 F 2 "MT25QL512ABB8ESF-0SIT:MT25QL512ABB8ESF-0SIT" H 3400 1950 50  0001 L CNN
 F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-b/mt25q_qlkt_l_512_abb_0.pd" H 1500 2550 50  0001 L CNN
 F 4 "557-1651-ND" H 3100 4000 50  0001 C CNN "Digikey#"
-F 5 "MT25QL512ABB8ESF-0SIT" H 3100 4000 50  0001 C CNN "Manf#"
+F 5 "" H 3100 4000 50  0001 C CNN "Manf#"
 F 6 "340-278183-TRAY" H 3100 4000 50  0001 C CNN "Mouser#"
 F 7 "Micron" H 3100 4000 50  0001 C CNN "MANUFACTURER"
+F 8 "MT25QL512ABB8ESF-0SIT" H 3100 4000 50  0001 C CNN "manf#"
 	1    3100 4000
 	1    0    0    -1  
 $EndComp
@@ -189,9 +192,10 @@ F 1 "MT25QL512ABB8ESF-0SIT" H 9075 4324 50  0000 C CNN
 F 2 "MT25QL512ABB8ESF-0SIT:MT25QL512ABB8ESF-0SIT" H 8650 1950 50  0001 L CNN
 F 3 "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-b/mt25q_qlkt_l_512_abb_0.pd" H 6750 2550 50  0001 L CNN
 F 4 "557-1651-ND" H 8350 4000 50  0001 C CNN "Digikey#"
-F 5 "MT25QL512ABB8ESF-0SIT" H 8350 4000 50  0001 C CNN "Manf#"
+F 5 "" H 8350 4000 50  0001 C CNN "Manf#"
 F 6 "340-278183-TRAY" H 8350 4000 50  0001 C CNN "Mouser#"
 F 7 "Micron" H 8350 4000 50  0001 C CNN "MANUFACTURER"
+F 8 "MT25QL512ABB8ESF-0SIT" H 8350 4000 50  0001 C CNN "manf#"
 	1    8350 4000
 	1    0    0    -1  
 $EndComp
@@ -326,8 +330,9 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 4250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6650 4400 50  0001 C CNN
 F 4 "311-1088-1-ND" H 6650 4400 50  0001 C CNN "Digikey#"
 F 5 "YAGEO" H 6650 4400 50  0001 C CNN "MANUFACTURER"
-F 6 "CC0603KRX7R7BB104" H 6650 4400 50  0001 C CNN "Manf#"
+F 6 "" H 6650 4400 50  0001 C CNN "Manf#"
 F 7 "603-CC603KRX7R7BB104" H 6650 4400 50  0001 C CNN "Mouser#"
+F 8 "CC0603KRX7R7BB104" H 6650 4400 50  0001 C CNN "manf#"
 	1    6650 4400
 	1    0    0    -1  
 $EndComp
